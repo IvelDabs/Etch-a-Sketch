@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Montserrat+Alternates&display=swap");
+
+:root {
+    --heading-font: "Cinzel Decorative";
+    --paragraph-font: Montserrat;
+}
+
+#heading {
+    text-align: center;
+    font-size: 30px;
+    font-family: var(--heading-font);
+}
+
+.paragraph {
+    font-size: 20px;
+    font-family: var(--paragraph-font);
+}
+
+#container {
+    display: flex;
+    margin-top: 70px;
+}
+
+#container-child1 {
+    display: block;
+    align-items: center;
+    width: 200px;
+    margin-left: 200px;
+    margin-right: 100px;
+    padding: 0 50px;
+}
+
+input {
+    width: 250px;
+    justify-self: baseline;
+}
+
+#container-child2 {
+    display: grid;
+    justify-content: center;
+    width: 600px;
+    height: 700px;
+    margin-left: 50px;
+    background-color: white;
+    border: 5px solid gray;
+}
+
+.child-child {
+    width: auto;
+    background-color: white;
+}
+
+.footer-text {
+    text-align: center;
+    font-family: var(--paragraph-font);
+    font-size: 25px;
+}
+
+.github {
+    color: black;
+    transition: transform 0.3s ease-in-out;
+    margin-right: 10px;
+    width: 30px;
+    border-radius: 70px;
+}
+
+.github:hover {
+    transform: rotate(360deg) scale(1.2);
+}
